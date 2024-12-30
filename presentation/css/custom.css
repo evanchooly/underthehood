@@ -1,0 +1,17 @@
+.column-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    /*gap: 10px;*/
+}
+
+.column-item {
+    font-size: small;
+    text-align: left;
+    /*background: #f0f0f0;*/
+    /*padding: 20px;*/
+    /*text-align: center;*/
+}
+
+.reveal table td {
+    border-bottom: 1px none;
+}
