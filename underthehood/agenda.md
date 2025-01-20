@@ -80,6 +80,9 @@
     * plugin has related code bracketed
   * Effectively final
 * Records
-* Exceptions
-* Text blocks
-* MethodHandler
+  * [Records.java](src/main/java/com/antwerkz/underthehood/Records.java)
+  * look at [javap](target/txt-files/Records.javap)
+  * look at [asm](target/txt-files/Records.txt)
+  * extends Record
+  * fields are final
+  * free methods
