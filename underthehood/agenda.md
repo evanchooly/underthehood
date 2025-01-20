@@ -65,14 +65,20 @@
   * 'a' and 'b' have slots 1 and 3
     * 64 bit
   * work through various invocations
+* Inner/static classes
+  * [TopLevel.java](src/main/java/com/antwerkz/underthehood/Lambdas.java)
+  * look at [javap](target/txt-files/TopLevel.javap)
+  * look at [asm](target/txt-files/TopLevel.txt)
+  * see nest members
+    * allows for access to private members without bridge methods
 * Lambdas
+  * [Lambdas.java](src/main/java/com/antwerkz/underthehood/Lambdas.java)
   * look at [javap](target/txt-files/Lambdas.javap)
   * look at [asm](target/txt-files/Lambdas.txt)
   * BootstrapMethods and constant pool
     * javap is sometimes easier to read
     * plugin has related code bracketed
   * Effectively final
-* Inner/static classes
 * Records
 * Exceptions
 * Text blocks
