@@ -29,7 +29,7 @@
       * 42 fits in a byte so it uses the smallest operation
       * bump value up, `sipush`, more, `ldc`
 * Let's add some methods
-  *  [Methods.java](src/main/java/com/antwerkz/underthehood/Methods.java)
+  * [Methods.java](src/main/java/com/antwerkz/underthehood/Methods.java)
   * look at [javap](target/txt-files/Methods.javap)
   * look at [asm](target/txt-files/Methods.txt) 
   * Let's add a new method with some local variables
@@ -46,3 +46,29 @@
     * just the return scope
   * reassign name
     * new labels
+* Generics
+  * [Generics.java](src/main/java/com/antwerkz/underthehood/Generics.java)
+  * look at [javap](target/txt-files/Generics.javap)
+  * look at [asm](target/txt-files/Generics.txt) 
+  * Note the signature and declaration
+    * plugin and bottom of javap
+* Generic method calls
+  * [GenericMethods.java](src/main/java/com/antwerkz/underthehood/GenericMethods.java)
+  * look at [javap](target/txt-files/GenericMethods.javap)
+  * look at [asm](target/txt-files/GenericMethods.txt)
+    * "dup" to use the newly created reference in invokespecial 
+    * Bridge/synthetic methods
+* Autoboxing
+  * [AutoBoxing.java](src/main/java/com/antwerkz/underthehood/AutoBoxing.java)
+  * look at [javap](target/txt-files/AutoBoxing.javap)
+  * look at [asm](target/txt-files/AutoBoxing.txt)
+  * 'a' and 'b' have slots 1 and 3
+    * 64 bit
+  * work through various invocations
+* Lambdas
+  * Effectively final
+* Inner/static classes
+* Records
+* Exceptions
+* Text blocks
+* MethodHandler
