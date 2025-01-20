@@ -66,6 +66,11 @@
     * 64 bit
   * work through various invocations
 * Lambdas
+  * look at [javap](target/txt-files/Lambdas.javap)
+  * look at [asm](target/txt-files/Lambdas.txt)
+  * BootstrapMethods and constant pool
+    * javap is sometimes easier to read
+    * plugin has related code bracketed
   * Effectively final
 * Inner/static classes
 * Records
