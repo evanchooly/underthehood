@@ -46,6 +46,14 @@
     * just the return scope
   * reassign name
     * new labels
+* Flow Control
+  * [FlowControl.java](src/main/java/com/antwerkz/underthehood/FlowControl.java)
+  * look at [javap](target/txt-files/FlowControl.javap)
+  * look at [asm](target/txt-files/FlowControl.txt)
+  * frames are used to speed up the verifier so that local variable inferences/slots can be verified in a single pass
+  * https://stackoverflow.com/questions/25109942/what-is-a-stack-map-frame
+  * note the cmp bytecode
+    * the cmp bytecode is the "inverse" of what you'd expect because of the stack order
 * Generics
   * [Generics.java](src/main/java/com/antwerkz/underthehood/Generics.java)
   * look at [javap](target/txt-files/Generics.javap)
