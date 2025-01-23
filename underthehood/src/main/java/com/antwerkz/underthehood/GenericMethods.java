@@ -12,4 +12,10 @@ public class GenericMethods implements Consumer<String> {
     public void accept(String s) {
         System.out.println(s);
     }
+
+/*
+    public <T extends BasicClass> void something(T t) {
+        System.out.println(t);
+    }
+*/
 }
