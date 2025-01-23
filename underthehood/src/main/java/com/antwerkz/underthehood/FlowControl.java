@@ -84,4 +84,21 @@ public class FlowControl {
 
     }
 */
+
+/*
+    public void stringSwitches(String solfege) {
+        var result = switch (solfege) {
+        case "do", "re", "mi" -> {
+            yield 42;
+        }
+        case "fa", "so", "la" -> {
+            yield "what?";
+        }
+        case "ti" -> {
+            yield new AtomicInteger(42);
+        }
+        default -> throw new UnsupportedOperationException();
+    };
+}
+*/
 }
