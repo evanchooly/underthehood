@@ -94,3 +94,7 @@
   * extends Record
   * fields are final
   * free methods
+* Pattern Matching (Java 17)
+  * [PatternMatching.java](src/main/java/com/antwerkz/underthehood/PatternMatching.java)
+  * look at [javap](target/txt-files/PatternMatching.javap)
+  * look at [asm](target/txt-files/PatternMatching.txt)
