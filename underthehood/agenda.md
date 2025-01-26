@@ -98,3 +98,7 @@
   * [PatternMatching.java](src/main/java/com/antwerkz/underthehood/PatternMatching.java)
   * look at [javap](target/txt-files/PatternMatching.javap)
   * look at [asm](target/txt-files/PatternMatching.txt)
+* Sealed Classes (Java 17)
+  * [SealedClasses.java](src/main/java/com/antwerkz/underthehood/sealedclasses/SealedClasses.java)
+  * look at [javap](target/txt-files/SealedClasses.javap)
+  * look at [asm](target/txt-files/SealedClasses.txt)
